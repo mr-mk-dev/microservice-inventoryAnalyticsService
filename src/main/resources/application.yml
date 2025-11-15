@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/inventory_analytics
+    username: manish_owner
+    password: Manish@7200
+    driver-class-name:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8084
